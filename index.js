@@ -1,4 +1,4 @@
-var config = {
+const config = {
   type: Phaser.AUTO,
   parent: 'game',
   width: 896,
@@ -11,34 +11,40 @@ var config = {
     preload: preload,
     create: create,
     update: update
-  }
+  },
+  physics: {
+    default: 'arcade',
+    arcade: {
+      gravity: {
+          y: 100
+        },
+        debug: true
+    },
+}
 };
 
-var map;
-var tileset;
-var layer;
-var player;
-
-var game = new Phaser.Game(config);
+const game = new Phaser.Game(config);
 
 function preload() {
-  this.load.image('wall', 'assets/images/block.png');
-  this.load.image('background', 'assets/images/edible block.jpg');
-  this.load.image('tiles', 'assets/tilesets/tilesetll.png');
-  this.load.tilemapTiledJSON('map', 'assets/tilemaps/level1.json');
-  this.load.image('player', 'assets/images/player.png');
+  this.load.image("tiles", "./assets/tilesets/tilesetll.png");
+  this.load.image('player', './assets/images/player.png');
+  this.load.tilemapTiledJSON('map', './assets/tilemaps/level1.json')
 }
 
+let player;
+
 function create() { 
-  map = this.make.tilemap({ key: 'map' });
-  tileset = map.addTilesetImage('tilesetll', 'tiles');
-  layer = map.createStaticLayer('Platforms', tileset, 0, 0);
 
+ 
+  const map = this.make.tilemap({ key: 'map', tileWidth: 64, tileHeight: 64 });
+  const tiles = map.addTilesetImage('tilesetll', "tiles");
 
+  const wall = map.createStaticLayer('wall', tiles, 0, 0);
+  const floor = map.createStaticLayer('floor', tiles, 0, 0);
 
-
-  player = this.physics.add.sprite(50, 300, 'player');
-
+  player = this.physics.add.sprite(96, 96, 'player');
+  player.setCollideWorldBounds(true);
+  this.physics.add.collider(player, wall);
 }
 
 function update() {
