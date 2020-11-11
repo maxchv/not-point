@@ -1,0 +1,96 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "tilemaps/level1.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "E:/Desktop/assets/tilemaps/level1.tmx": {
+            "scale": 1.2270833333333333,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 302.75042444821736,
+                "y": 161.76570458404075
+            }
+        },
+        "E:/Desktop/game/assets/level1.tmx": {
+            "scale": 0.7728645833333333,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 626.2416604892512,
+                "y": 524.0245299548486
+            }
+        },
+        "E:/Desktop/безымянный.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 172,
+                "y": 330
+            }
+        },
+        "I:/not point/assets/tilemaps/tilesetll.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "level1.json": {
+            "scale": 1.343359375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 554.5798197150334,
+                "y": 231.88136086071532
+            }
+        },
+        "tilemaps/level1.tmx": {
+            "scale": 0.5304166666666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 781.4611154752553,
+                "y": 220.58130400628443
+            }
+        },
+        "tilemaps/level1.tmx#tilesetll": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tilemaps/level2.tmx": {
+            "scale": 0.9336718749999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320.7765040582378,
+                "y": 126.91824951886869
+            }
+        }
+    },
+    "map.fixedSize": true,
+    "map.height": 7,
+    "map.lastUsedExportFilter": "JSON map files (*.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": 1,
+    "map.orientation": 1,
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 14,
+    "openFiles": [
+        "tilemaps/level1.tmx"
+    ],
+    "project": "no-point.tiled-project",
+    "recentFiles": [
+        "tilemaps/level2.tmx",
+        "tilemaps/level1.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    },
+    "tileset.transparentColor": "#ff00ff",
+    "tileset.type": 0,
+    "tileset.useTransparentColor": false
+}
