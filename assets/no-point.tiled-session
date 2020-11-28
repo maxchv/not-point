@@ -3,8 +3,9 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "tilemaps/level1.tmx",
+    "activeFile": "tilemaps/level01.tmx",
     "expandedProjectPaths": [
+        "tilemaps"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -23,6 +24,17 @@
                 "x": 626.2416604892512,
                 "y": 524.0245299548486
             }
+        },
+        "E:/Desktop/not-point-master/assets/tilemaps/level5.tmx": {
+            "scale": 1.127064732142857,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 479.56429172649405,
+                "y": 415.23790661979507
+            }
+        },
+        "E:/Desktop/not-point-master/assets/tilemaps/level5.tmx#tilesetll": {
+            "scaleInDock": 1
         },
         "E:/Desktop/безымянный.tmx": {
             "scale": 1,
@@ -44,12 +56,34 @@
                 "y": 231.88136086071532
             }
         },
-        "tilemaps/level1.tmx": {
-            "scale": 0.5304166666666666,
+        "tilemaps/level01.json": {
+            "scale": 1.1344866071428572,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 781.4611154752553,
-                "y": 220.58130400628443
+                "x": 448.6610919822921,
+                "y": 224.33054599114604
+            }
+        },
+        "tilemaps/level01.json#tilesetll": {
+            "scaleInDock": 1
+        },
+        "tilemaps/level01.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 494,
+                "y": 279.5
+            }
+        },
+        "tilemaps/level01.tmx#tilesetll": {
+            "scaleInDock": 1
+        },
+        "tilemaps/level1.tmx": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 448.5,
+                "y": 285
             }
         },
         "tilemaps/level1.tmx#tilesetll": {
@@ -76,12 +110,16 @@
     "map.tileWidth": 64,
     "map.width": 14,
     "openFiles": [
-        "tilemaps/level1.tmx"
+        "tilemaps/level01.tmx"
     ],
     "project": "no-point.tiled-project",
+    "property.type": "bool",
     "recentFiles": [
-        "tilemaps/level2.tmx",
-        "tilemaps/level1.tmx"
+        "tilemaps/level01.tmx",
+        "tilemaps/level01.json",
+        "tilemaps/level1.tmx",
+        "E:/Desktop/not-point-master/assets/tilemaps/level5.tmx",
+        "tilemaps/level2.tmx"
     ],
     "tileset.embedInMap": true,
     "tileset.margin": 0,
